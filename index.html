@@ -25,9 +25,9 @@
             个人中心
           </a>
           <dl class="layui-nav-child">
-            <dd><a href="">基本资料</a></dd>
-            <dd><a href="">更换头像</a></dd>
-            <dd><a href="">重置密码</a></dd>
+            <dd><a href="user/user-info.html" target="fm">基本资料</a></dd>
+            <dd><a href="user/user_avatar.html" target="fm">更换头像</a></dd>
+            <dd><a href="user/user_pwd.html" target="fm">重置密码</a></dd>
           </dl>
         </li>
         <li class="layui-nav-item">
@@ -60,9 +60,9 @@
             </a>
             <dl class="layui-nav-child">
               <dd><a href="javascript:;">
-                <i class="layui-icon layui-icon-cols"></i>
-                文章类别
-              </a></dd>
+                  <i class="layui-icon layui-icon-cols"></i>
+                  文章类别
+                </a></dd>
               <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>文章列表</a></dd>
               <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>发表文章</a></dd>
             </dl>
@@ -73,9 +73,9 @@
               个人中心
             </a>
             <dl class="layui-nav-child">
-              <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>基本资料</a></dd>
-              <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>更换头像</a></dd>
-              <dd><a href="javascript:;"><i class="layui-icon layui-icon-cols"></i>重置密码</a></dd>
+              <dd><a href="user/user-info.html" target="fm"><i class="layui-icon layui-icon-cols"></i>基本资料</a></dd>
+              <dd><a href="user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-cols"></i>更换头像</a></dd>
+              <dd><a href="user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-cols"></i>重置密码</a></dd>
             </dl>
           </li>
         </ul>
@@ -84,7 +84,7 @@
 
     <div class="layui-body">
       <!-- 内容主体区域 -->
-      <iframe name="fm" src="home/dashboard.html" frameborder="0"></iframe>
+      <iframe name="fm" src="home/dashboard.html" frameborder="0" id="fm"></iframe>
     </div>
 
     <div class="layui-footer">
@@ -92,10 +92,10 @@
       底部固定区域
     </div>
   </div>
-  <script src="assets/lib/jquery.js"></script>
-  <script src="assets/lib/layui/layui.all.js"></script>
-  <script src="assets/js/baseAPI.js"></script>
-  <script src="assets/js/index.js"></script>
 </body>
+<script src="assets/lib/jquery.js"></script>
+<script src="assets/lib/layui/layui.all.js"></script>
+<script src="assets/js/baseAPI.js"></script>
+<script src="assets/js/index.js"></script>
 
 </html>
